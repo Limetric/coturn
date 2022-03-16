@@ -1,12 +1,7 @@
 name: Docker CI
 
-
 on:
-  pull_request:
   push:
-  schedule:
-    - cron: '13 13 * * 3'
-
 
 jobs:
   buildx:
